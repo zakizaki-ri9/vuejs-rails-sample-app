@@ -1,24 +1,24 @@
-# README
+# 概要
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vue.jsをRailsアプリに導入を試みるアプリ。  
 
-Things you may want to cover:
+# メモ
 
-* Ruby version
+## webpacker
 
-* System dependencies
+- JavaScriptライブラリのまとめ役
 
-* Configuration
+## yarn
 
-* Database creation
 
-* Database initialization
+# 参考記事
 
-* How to run the test suite
+以下、記事参照。  
 
-* Services (job queues, cache servers, search engines, etc.)
+- [Rails 5.1 + Vue.js で開発を行う - part1 環境構築](https://qiita.com/cohki0305/items/582c0f5ed0750e60c951)  
+    - 環境構築あたりを参照
+        - `gem webpacker`の導入
+        - `yarn`インストール
+        - railsアプリにwebpackerのインストール
+        - railsアプリにwebpacker経由でVue.jsをインストール
 
-* Deployment instructions
-
-* ...
