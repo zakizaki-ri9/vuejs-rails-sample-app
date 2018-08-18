@@ -1,5 +1,6 @@
 <template>
-  <div id="app">
+  <div id="hello">
+    <p>fixed message</p>
     <p>{{ message }}</p>
   </div>
 </template>
@@ -14,7 +15,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 p {
   font-size: 5em;
   color: red;
